@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Sell</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: whitesmoke;
+        }
+        body{
+            background-color: #2c2c2c;
+            font-family: "Montserrat Subrayada", sans-serif;
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 2px solid white;
+            padding: 5px 5px;
+            text-decoration: none;
+            border-radius: 35px;
+        }
+        .logo{
+            border: 2px solid white;
+            padding: 8px 6px;
+        }
+        .signup{
+            background-color: white;
+            color: #2c2c2c;
+        }
+        .signup:hover{
+            background-color: #2c2c2c;
+            color: white;
+        }
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 90vh;
+            margin: 0 150px;
+            flex-wrap: wrap;
+        }
+        .contentleft{
+            flex: 1;
+        }
+        .contentmid{
+            flex: 2;
+            padding: 90px;
+        }
+        .contentright{
+            flex: 1;
+            
+        }
+        .merc{
+            height: auto;
+            max-width: 300px;
+            
+        }
+        .btn{
+            padding: 15px 20px;
+            background-color: white;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            color: #2c2c2c;
+            font-weight: 700;
+        }
+        .btn:hover{
+            background-color: #2c2c2c;
+            color: white;
+            border: white solid;
+        }
+        main h2{
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+        main p{
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 31px;
+            margin: 30px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo" class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">Sell Now</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contentleft">
+            <h2>Mercury</h1>
+        </div>
+        <div class="contentmid">
+            <p>
+                Mercury is the smallest planet in our solar system and the nearest to the sun
+                <br>     
+                Mercury is only slightly larger than Earth's Moon. Its surface is covered in tens of thousands of impact craters. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere. But Mercury is the fastest planet, zipping around the Sun every 88 Earth days. Mercury is appropriately named for the swiftest of the ancient Roman gods.
+                
+            </p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="contentright">
+            <img src="d0329473687a2ab4d011a3c55f646c27.jpg" alt="fuck-off" class="merc">
+        </div>
+    </main>
+</body>
+</html>
