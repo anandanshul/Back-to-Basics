@@ -33,6 +33,7 @@ let validateInputs = () => {
         setSuccess(email, "valid")
     }
 
+    
     if(passwordValue == ''){
         setError(password, "Password Required")
     }
@@ -44,6 +45,7 @@ let validateInputs = () => {
         setSuccess(password, "verified")
     }
 
+    
     if(cnfPasswordValue !== passwordValue || cnfPasswordValue == ""){
         setError(cnfPassword, "Password does not match")
     }
